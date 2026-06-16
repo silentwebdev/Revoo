@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import ProductGallery from '../../../components/ProductGallery';
 import Image from 'next/image';
-import RevooImage from '../../../public/revoo-spec-sheet.jpg';
 import {
   MessageCircle, ArrowLeft, Zap, Gauge, Battery, Clock,
   ChevronDown, ChevronUp, Package, Shield, Plug, Weight,
@@ -296,11 +295,12 @@ export default function ProductDetailClient({ product: initialProduct }) {
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <Image
+              src="/revoo-spec-sheet.jpg"
+              alt="REVOO Pakistan official product comparison spec sheet"
               width={1200}
               height={800}
-              src={RevooImage.src}  
-              alt="REVOO Pakistan official product comparison spec sheet"
               className="w-full object-contain"
+              priority
             />
           </div>
         </motion.div>
