@@ -9,7 +9,7 @@ const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 
 export const metadata = {
   title: {
-    default: 'REVOO Pakistan | Premium Electric Scooters',
+    default: 'REVOO Pakistan | Premium Electric Scooters In Kalur Kot',
     template: '%s | REVOO Pakistan',
   },
   description:
