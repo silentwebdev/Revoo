@@ -1,3 +1,5 @@
+// This page is server component
+
 import HeroSection from '../components/HeroSection';
 import FeaturedProducts from '../components/FeaturedProducts';
 import WhyChooseUs from '../components/WhyChooseUs';
